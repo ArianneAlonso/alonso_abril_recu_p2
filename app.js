@@ -63,5 +63,5 @@ app.delete("/students/:id", (req, res) => {
 
 //servidor
 app.listen(app.get("port"), () =>{
-    console.log(`el servidor esta corriend en el puerto ${app.get("port")}`);
+    console.log(`el servidor esta corriendo en el puerto ${app.get("port")}`);
 })
