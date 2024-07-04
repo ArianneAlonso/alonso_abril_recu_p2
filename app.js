@@ -29,10 +29,6 @@ app.post("/students", (req, res) =>{
     const {fullName, age, curse} = req.body;
     const id = new Date().getTime();
 
-    fullName=String(fullName);
-    age=parseInt(age);
-    curse=String(curse);
-
     const nuevoEstudiante = {
         id,
         fullName,
