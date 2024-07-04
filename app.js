@@ -2,7 +2,7 @@ const express = require("express")
 const app = express();
 
 //base de datos
-const basedatos = [];
+const basedatos = require("./db")
 
 //middleware
 app.use(express.json());
